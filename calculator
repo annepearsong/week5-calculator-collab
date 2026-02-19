@@ -1,0 +1,28 @@
+# Person A: Create this file as "calculator.ipynb"
+# Add this cell and run it to verify it works
+
+# Part 1: Addition (Person A)
+def add(a, b):
+    """Return the sum of a and b.
+    >>> add(3, 4)
+    7
+    >>> add(-1, 1)
+    0
+    """
+    return a + b
+
+# Part 2: Subtraction (Person A)  
+def subtract(a, b):
+    """Return a minus b.
+    >>> subtract(10, 3)
+    7
+    >>> subtract(5, 5)
+    0
+    """
+    return a - b
+
+# Test Person A's functions
+print("Testing Person A's functions:")
+print(f"add(3, 4) = {add(3, 4)}")
+print(f"subtract(10, 3) = {subtract(10, 3)}")
+print("✅ Person A's functions work!")
